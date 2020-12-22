@@ -1,0 +1,55 @@
+form{
+    text-align: center;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline;
+}
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+input[type=text]{
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+
+input[type=email]{
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+textarea{
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+fieldset{
+    border-radius: 30px;
+    margin: auto;
+    width: 30%;
+    height: 60%;
+}
+
+input[type=submit]{
+  background-color: rgb(10, 82, 82);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
